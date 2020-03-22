@@ -1,5 +1,7 @@
 from random import randint
 from math import sqrt
+import time
+start_time = time.time()
 
 y_max = (30 - 4) * 10
 y_min = (20 - 4) * 10
@@ -155,3 +157,5 @@ def main():
 
 
 main()
+
+print(f'\ntime: {time.time() - start_time}')
